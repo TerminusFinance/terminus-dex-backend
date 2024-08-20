@@ -1,0 +1,2 @@
+class GetMethodExecutionError(Exception):
+    pass

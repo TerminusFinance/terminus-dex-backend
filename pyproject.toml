@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "terminus-dex-backend"
+version = "0.1.0"
+description = "Backend for Terminus DEX"
+authors = ["Dmitrii Kopeikin"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "terminus_dex_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+pydantic-settings = "^2.3.4"
+gunicorn = "^22.0.0"
+sqlalchemy = "^2.0.31"
+sqlalchemy-utils = "^0.41.2"
+pytonapi = "^0.3.3"
+alembic = "^1.13.2"
+asyncpg = "^0.29.0"
+psycopg2-binary = "^2.9.9"
+tvm-valuetypes = "^0.0.12"
+pytoniq = "^0.1.39"
+pyjwt = "^2.8.0"
+pytoniq-core = "^0.1.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

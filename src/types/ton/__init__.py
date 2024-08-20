@@ -1,0 +1,1 @@
+from .ton_address_annotated import TonAddressType

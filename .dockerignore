@@ -1,0 +1,5 @@
+.venv
+.env.dist
+Dockerfile
+poetry.lock
+pyproject.toml

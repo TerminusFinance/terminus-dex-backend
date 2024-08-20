@@ -1,0 +1,3 @@
+class StakingObserver:
+
+    pass
